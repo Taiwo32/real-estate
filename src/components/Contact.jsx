@@ -33,6 +33,7 @@ const Contact = () => {
         }
     };
 
+    //we use web 3 from for sending our email  and we use framer motion for the animation effect
     return (
         <motion.div
             initial={{ opacity: 0, x: -200 }}
